@@ -1,0 +1,15 @@
+[project]
+name = "refactor-with-examples"
+requires-python = ">=3.11"
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+
+[tool.pixi.dependencies]
+jupyter = ">=1.1.1,<2"
+polars = ">=1.27.1,<2"
+pillow = ">=11.1.0,<12"
+requests = ">=2.32.3,<3"
+aiofiles = ">=24.1.0,<25"
+pytest = ">=8.3.5,<9"
